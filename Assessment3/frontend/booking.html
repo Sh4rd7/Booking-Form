@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment 3 Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<header>
+    <div class="picture">
+        <img src="bowling%20alley.jpg" height="426" width="640"/>
+    </div>
+</header>
+
+<body>
+<form method="post" action="../PHP/subscriptionCreateBooking.php">
+    <div class="UserDetails">
+        <input type="text" id="fullName" name="fullName" class="formStyle" placeholder="Full Name (required)" required/><br><br>
+        <input type="text" id="numberofPeople" name="numberofPeople" class="formStyle" placeholder="number of people" required/><br><br>
+        <input type="text" id="alley" name="alley" class="formStyle" placeholder="alley" required><br><br>
+        <input type="submit" name="book" value="Book">
+    </div>
+
+
+
+</form>
+</body>
+</html>
